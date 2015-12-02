@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 
-die "Missing Arguments.\n usage: ./convert-to-wsgow.pl <Input_File_Name> <Directory_Name>\n\n" unless (defined $ARGV[0] && defined $ARGV[1]);
+die "Missing Arguments.\n usage: ./convert-to-zebra.pl <Input_File_Name> <Directory_Name>\n\n" unless (defined $ARGV[0] && defined $ARGV[1]);
 
 open INFILE, "<$ARGV[0]"; #nombre del archivo
 
